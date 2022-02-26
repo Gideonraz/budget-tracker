@@ -1,0 +1,51 @@
+body {
+  font-size: 120%;
+  font-family: 'Gideon Roman';
+}
+
+button, input {
+  font-size: 100%;
+  font-family: 'Gideon Roman';
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.error {
+  color: red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 820px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.total {
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+.transactions {
+  text-align: left;
+  max-height: 300px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
